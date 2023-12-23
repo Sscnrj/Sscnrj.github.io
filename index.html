@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Card Example</title>
+</head>
+<body>
+<header>
+    <div class="logo-container">
+        <img src="images/logo.png" alt="Logo">
+    </div>
+    <div class="navigation-container">
+        <nav>
+            <ul>
+                <li><a>Hébergements</a></li>
+                <li><a>Activités</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Nouveau contenu en dessous de l'en-tête -->
+<div class="entete">
+    <h1>Trouvez votre hébergement pour vos vacances de rêve</h1>
+    <h2>En plein centre-ville ou en pleine nature</h2>
+
+    <!-- Barre de recherche -->
+    <div class="search-bar">
+        <div class="location-icon">
+            <i class="fas fa-map-marker-alt"></i>
+        </div>
+        <input type="text" placeholder="Entrez votre destination...">
+        <button><i class="fas fa-search">
+            <img class="loupe" src="images/loupe.png" alt="loupe">
+        </i></button>
+    </div>
+
+
+    <!-- Filtres -->
+    <div class="filters">
+        <div class="filter">Economique</div>
+        <div class="filter">Familial</div>
+        <div class="filter">Romantique</div>
+        <div class="filter">Animaux autorisés</div>
+    </div>
+
+    <!-- Information supplémentaire -->
+    <div class="info">
+        <img src="images/info-icon.png" alt="Information">
+        <h3>Plus de 500 logements sont disponibles dans cette ville</h3>
+    </div>
+</div>
+
+<div class="main-container">
+
+    <div class="gauche">
+        <div class="titleg">
+            <p>Hébergements à Marseille</p>
+        </div>
+        <!-- Grille de cartes à gauche -->
+        <div class="card-container">
+            <!-- Carte 1 -->
+            <div class="card">
+                <img src="images/canebiere.jpg" alt="Nom du logement 1">
+                <div class="details">
+                    <h2>Nom du Logement 1</h2>
+                    <p>Prix : $XXX par nuit</p>
+                    <div class="rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carte 2 -->
+            <div class="card">
+                <img src="images/port.jpg" alt="Nom du logement 2">
+                <div class="details">
+                    <h2>Nom du Logement 2</h2>
+                    <p>Prix : $XXX par nuit</p>
+                    <div class="rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/mouettes.jpg" alt="Nom du logement 3">
+                <div class="details">
+                    <h2>Nom du Logement 3</h2>
+                    <p>Prix : $XXX par nuit</p>
+                    <div class="rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/mer.jpg" alt="Nom du logement 4">
+                <div class="details">
+                    <h2>Nom du Logement 4</h2>
+                    <p>Prix : $XXX par nuit</p>
+                    <div class="rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/panier.jpg" alt="Nom du logement 5">
+                <div class="details">
+                    <h2>Nom du Logement 5</h2>
+                    <p>Prix : $XXX par nuit</p>
+                    <div class="rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/Amina.jpg" alt="Nom du logement 6">
+                <div class="details">
+                    <h2>Nom du Logement 6</h2>
+                    <p>Prix : $XXX par nuit</p>
+                    <div class="rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="show-more">
+            <p>Afficher plus</p>
+        </div>
+
+    </div>
+
+
+    <div class="droite">
+        <div class="title">
+            <div class="title-content">
+                <div class="pop">Les + populaires</div>
+                <div class="icon-container">
+                    <!-- Ajoutez votre icône ici -->
+                    <!-- Exemple avec une icône d'engrenage : -->
+                    <i class="fas fa-cog"></i>
+                </div>
+            </div>
+        </div>
+        <!-- Trois cartes en dessous les unes des autres à droite -->
+        <div class="right-cards">
+            <!-- Nouveau type de carte à droite -->
+            <!-- Carte 4 -->
+            <div class="right-card">
+                <img src="images/soleil.jpg" alt="Nom du logement 7">
+                <div class="right-details">
+                    <h3>Nom du Logement 7</h3>
+                    <p>Prix : $XXX par nuit</p>
+                    <div class="right-rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-card">
+                <img src="images/coeur.jpg" alt="Nom du logement 8">
+                <div class="right-details">
+                    <h3>Nom du Logement 8</h3>
+                    <p>Prix : $XXX par nuit</p>
+                    <div class="right-rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-card">
+                <img src="images/bleublanc.jpg" alt="Nom du logement 9">
+                <div class="right-details">
+                    <h3>Nom du Logement 9</h3>
+                    <p>Prix : $XXX par nuit</p>
+                    <div class="right-rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Ajoutez ces cartes à la fin de votre fichier HTML, après les éléments existants -->
+<div class="activites">
+
+    <p>Activités à Marseille</p>
+
+    <div class="full-width-cards flex-container">
+        <div class="simple-card">
+            <img src="images/vieuxport.jpg" alt="Vieux Port">
+            <h2>Vieux-Port</h2>
+        </div>
+
+        <div class="simple-card">
+            <img src="images/pomegues.jpg" alt="Pomegues">
+            <h2>Fort de Pomègues</h2>
+        </div>
+
+        <div class="simple-card">
+            <img src="images/calanques.jpg" alt="Calanques">
+            <h2>Parc national des Calanques</h2>
+        </div>
+
+        <div class="simple-card">
+            <img src="images/nddlg.jpg" alt="notre dame">
+            <h2>Notre-Dame-de-la-Garde</h2>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <div class="footer-column">
+        <h4>A propos</h4>
+        <ul>
+            <li>Fonctionnement du site</li>
+            <li>Conditions générales</li>
+            <li>Données et confidentialité</li>
+        </ul>
+    </div>
+
+    <div class="footer-column">
+        <h4>Nos Hébergements</h4>
+        <ul>
+            <li>Charte qualité</li>
+            <li>Proposer votre hôtel</li>
+        </ul>
+    </div>
+
+    <div class="footer-column">
+        <h4>Assistance</h4>
+        <ul>
+            <li>Centre d'aide</li>
+            <li>Assistance</li>
+        </ul>
+    </div>
+</footer>
+
+</body>
+</html>
